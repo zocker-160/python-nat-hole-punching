@@ -165,3 +165,5 @@ if __name__ == '__main__':
 
     signal.signal(signal.SIGINT, triggerExit)
     signal.signal(signal.SIGTERM, triggerExit)
+
+    runClient(sys.argv[1], port=5050)
